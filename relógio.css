@@ -1,0 +1,16 @@
+h1{
+    text-align:center;
+    font-size: 35px;
+}
+div{
+    text-align: center;
+    border:5px solid rgb(158, 152, 152);
+    height:100px;
+    color:green;
+    background-color:rgb(20, 20, 20) ;
+    box-shadow:  6px 6px 6px;
+    font-family: monospace;
+}
+h2{
+    text-align: center;
+}

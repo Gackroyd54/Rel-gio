@@ -1,0 +1,10 @@
+let semana =['Domingo','Segunda-feira','Terça-feira','Quarta-feira','Quinta-feira','Sexta-feira']
+let mês = ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro']
+let hoje = document.getElementById("hoje")
+let date = new Date() 
+let week = date.getDay()
+let day = date.getDate()
+let month = date.getMonth()
+let year = date.getFullYear()
+//let dhoje = "hoje é sexta"
+hoje.innerHTML = `${semana[week]},${day} de ${mês[month]} de ${year}`
